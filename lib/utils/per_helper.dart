@@ -17,4 +17,19 @@ class Shar_Helper
     var p1=shar.getString("password");
     return {"email":e1 ,"password":p1};
   }
+
+
+  Future<void> screen({required bool tr})
+  async {
+    SharedPreferences sharedPreferences=await SharedPreferences.getInstance();
+    sharedPreferences.setBool("intro",tr);
+
+  }
+  Future<bool?> status()
+  async {
+    SharedPreferences sharedPreferences=await SharedPreferences.getInstance();
+    bool? s=sharedPreferences.getBool("intro");
+    return s;
+  }
+
 }

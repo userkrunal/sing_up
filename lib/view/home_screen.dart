@@ -15,7 +15,7 @@ class _Login_Home_ScreenState extends State<Login_Home_Screen> {
       body: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Center(
-          child: Text("Thank You for login",style: TextStyle(fontSize: 30),),
+          child: Text("Thank You for login",style: TextStyle(fontSize: 30)),
         ),
       ),
     ));
