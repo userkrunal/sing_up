@@ -17,7 +17,7 @@ class _Sing_UPScreenState extends State<Sing_UPScreen> {
       body:  Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Text("Sing in",style: TextStyle(fontSize: 40,color: Color(0xff2E3A69))),
+          Text("Sing up",style: TextStyle(fontSize: 40,color: Color(0xff2E3A69))),
           SizedBox(height: 20),
           Padding(
             padding: const EdgeInsets.all(8.0),
@@ -55,7 +55,7 @@ class _Sing_UPScreenState extends State<Sing_UPScreen> {
             Shar_Helper shar=Shar_Helper();
             shar.creatuser(email: useremail.text ,password: userpassword.text );
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Sucess fully ragister")));
-            Navigator.pushReplacementNamed(context, '/');
+            Navigator.pushReplacementNamed(context, 'home1');
           }, child: Text("Sing up",style: TextStyle(color: Color(0xff2E3A69))),style: ElevatedButton.styleFrom(backgroundColor: Color(0xffF4A0A0)),)
         ],
       ),

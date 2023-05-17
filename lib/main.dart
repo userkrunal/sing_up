@@ -10,11 +10,11 @@ void main()
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     routes: {
-      '/':(context) => SplashScreen(),
-      'intro':(context) => IntroScreen(),
-      // '/':(context) => HomeScreen(),
+       '/':(context) => SplashScreen(),
+       'intro':(context) => IntroScreen(),
+       'home1':(context) => HomeScreen(),
        'sing':(context) => Sing_UPScreen(),
-      // 'home':(context) => Login_Home_Screen(),
+       'home':(context) => Login_Home_Screen(),
     },
   ))
 ;}

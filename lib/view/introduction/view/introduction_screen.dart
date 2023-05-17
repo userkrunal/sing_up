@@ -73,12 +73,10 @@ class _IntroScreenState extends State<IntroScreen> {
             decoration: BoxDecoration(color: Color(0xffEF895F),borderRadius: BorderRadius.circular(10)),
             child: Center(child: Text("done",style: TextStyle(color: Colors.white),))),
         onDone: () async {
-
-          bool? isstatuse;
           Shar_Helper shar=Shar_Helper();
-          await shar.screen(tr: isstatuse!);
+          await shar.screen();
 
-          Navigator.pushReplacementNamed(context, 'sing');
+          Navigator.pushReplacementNamed(context, 'home1');
         },
       ),
     ));

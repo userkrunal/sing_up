@@ -19,10 +19,10 @@ class Shar_Helper
   }
 
 
-  Future<void> screen({required bool tr})
+  Future<void> screen()
   async {
     SharedPreferences sharedPreferences=await SharedPreferences.getInstance();
-    sharedPreferences.setBool("intro",tr);
+    sharedPreferences.setBool("intro",true);
 
   }
   Future<bool?> status()

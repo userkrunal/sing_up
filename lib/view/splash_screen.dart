@@ -24,12 +24,10 @@ class _SplashScreenState extends State<SplashScreen> {
     s=await shar.status();
   }
 
-
-
   @override
   Widget build(BuildContext context) {
     Future.delayed(Duration(seconds: 4),() {
-      s==false?Navigator.pushReplacementNamed(context, 'intro'):Navigator.pushReplacementNamed(context, 'sing');
+      s==true?Navigator.pushReplacementNamed(context, 'home1'):Navigator.pushReplacementNamed(context, 'intro');
     },);
     return SafeArea(child: Scaffold(
       backgroundColor: Colors.black87,
