@@ -25,4 +25,6 @@ samples, guidance on mobile development, and a full API reference.
 
 <img src="https://github.com/userkrunal/sing_up/assets/120082312/f07f93dd-033d-48d6-89bb-2d73ebd51aec"  width="300" height="600">
 
+<img src="https://github.com/userkrunal/sing_up/assets/120082312/38eb6e10-52e6-4f73-a3e2-cb56129074b0"  width="300" height="600">
+
 <img src="https://github.com/userkrunal/sing_up/assets/120082312/3e677b63-d9a7-4236-88e5-fa5ac09ba038"  width="300" height="600">
